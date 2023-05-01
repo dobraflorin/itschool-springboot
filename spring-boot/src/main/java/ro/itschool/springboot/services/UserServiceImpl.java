@@ -77,4 +77,9 @@ public class UserServiceImpl implements UserService {
     public OrderDTO createOrder(OrderDTO orderDTO) {
         return null;
     }
+
+    @Override
+    public Object updateUserById(Long userId, UserDTO userDTO) {
+        return null;
+    }
 }
